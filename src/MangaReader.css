@@ -1,0 +1,25 @@
+.manga-list {
+  text-align: center;
+}
+
+.manga-grid {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  flex-wrap: wrap;
+}
+
+.manga-item {
+  width: 150px;
+  cursor: pointer;
+}
+
+.manga-preview {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.manga-preview:hover {
+  transform: scale(1.05);
+}
